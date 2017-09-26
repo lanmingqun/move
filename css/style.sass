@@ -1,0 +1,105 @@
+html
+body
+  position: absolute
+  top: 0
+  bottom: 0
+  width: 100%
+  display: -webkit-flex
+  -webkit-flex-direction: column
+  font-size: .12rem
+
+  .swiper-container
+    height: 100%
+    .swiper-slide
+      width: 100%
+      height: 100%
+
+.head
+  dl
+    dt
+      width: 1.5rem
+      height: 1.5rem
+      margin-right: 0
+      margin-left: 0
+      margin: auto
+      border-radius: 100%
+      overflow: hidden
+      img
+        width: 100%
+.info
+  li
+    line-height: 40px
+    overflow: hidden
+    text-overflow: ellipsis
+.page
+  position: relative
+  color: #fff
+  span
+    position: absolute
+    bottom: 10px
+    right: 0
+    left: 0
+    margin: auto
+    i
+      transform: rotate(90deg)
+
+#second
+  dl
+    margin-top: .4rem
+
+#exprice
+  li
+    marin-top: 35px
+
+h5
+  text-align: center
+  color: #fff
+#move
+  margin-top: 20%
+
+.main
+  width: 80%
+  max-height: 3.5rem
+  min-height: 1.8rem
+  margin-left: 0
+  margin-right: 0
+  margin: auto
+  text-align: center
+  p
+    padding-top: .1rem
+.music
+  width: .4rem
+  height: .4rem
+  position: absolute
+  top: .15rem
+  left: .15rem
+  border-radius: 50%
+  overflow: hidden
+  background-image: url("../images/pictureFirst/first.jpg")
+  background-size: 100% auto
+  text-align: center
+  z-index: 999
+
+  .stop
+    line-height: .4rem
+    font-size: .18rem
+    color: #fff
+    text-align: center
+    vertical-align: middle
+  .stop
+    display: none
+
+.music-paly
+  animation: music-play 4s infinite
+  @keyframes music-play
+    0%
+      transform: rotate(0deg)
+    100%
+      transform: rotate(360deg)
+
+
+.language
+  position: absolute
+  top: 15px
+  right: 15px
+  z-index: 999
